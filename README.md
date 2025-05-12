@@ -4,81 +4,52 @@ A concise, well-tested collection of core data structures and algorithm implemen
 
 ---
 
-## Table of Contents
+## 📁 `lib/` – Core Data Structures
 
-- [Overview](#overview)  
-- [Features](#features)  
-- [Contents](#contents)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-- [Usage](#usage)  
-- [Examples](#examples)  
-- [Testing](#testing)  
-- [Folder Structure](#folder-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
+All core data structures are organized under the `lib/` directory, with individual subfolders for each category.
 
----
+### 📂 `lists/` – Linked Lists, Queues, and Stacks
 
-## Overview
+Contains implementations for lists, queues, and stacks:
 
-This package collects implementations of fundamental data structures (lists, stacks, queues, trees, graphs, hash tables) and classic algorithms (sorting, searching, traversals, shortest path, etc.) in pure Dart. Each module is documented, follows best-practice lints, and comes with unit tests.
+- **Linked Lists**
+  - Singly Linked List: Insertion, deletion, traversal, and searching.
+  - Doubly Linked List: Bidirectional traversal, insertion, and deletion.
+  - Circular Linked List: A singly linked list where the last node points to the head. Includes `insertAtEnd`, `insertAtFirst`, etc.
 
----
+- **Queues**
+  - Linked Queue: A queue implemented using linked list nodes, with operations like `enqueue`, `dequeue`, `peek`, and `isEmpty`.
+  - List Queue: A queue implemented using Dart's List with similar functionality.
 
-## Features
-
-- **Core Data Structures**:  
-  – ArrayList, LinkedList, Stack, Queue, Deque  
-  – Binary Trees, Heaps, Graphs, Hash Tables  
-
-- **Essential Algorithms**:  
-  – Sorting (QuickSort, MergeSort, HeapSort)  
-  – Searching (Binary Search, DFS, BFS)  
-  – Graph (Dijkstra, A\*, Kruskal, Prim)  
-  – Utility (Union-Find, Topological Sort)
-
-- **Quality-First**:  
-  – Null-safe, idiomatic Dart  
-  – Thorough unit tests with 100% coverage  
-  – Lint-compliant (analysis_options.yaml)
-
-- **Documentation & Examples**:  
-  – Dartdoc comments on all public APIs  
-  – `example/` folder demonstrating usage
+- **Stacks**
+  - Stack Using Linked List: Implements stack operations such as `push`, `pop`, `peek`, and `isEmpty`.
 
 ---
 
-## Contents
+### 📂 `trees/` – Future Data Structures (e.g., Trees)
 
-- **Data Structures**  
-  - `lib/src/array_list.dart`  
-  - `lib/src/linked_list.dart`  
-  - `lib/src/stack.dart`  
-  - …  
-
-- **Algorithms**  
-  - `lib/src/sorting/quick_sort.dart`  
-  - `lib/src/searching/binary_search.dart`  
-  - `lib/src/graphs/dijkstra.dart`  
-  - …  
+You can add tree-based data structures (e.g., binary trees, AVL trees, etc.) here in the future.
 
 ---
 
-## Getting Started
+## 🧪 `test/` – Unit Testing
 
-### Prerequisites
+Contains **unit tests for each data structure** to ensure correctness and reliability.
 
-- Dart SDK ≥ 2.12  
-- (Optional) Flutter SDK if integrating into Flutter apps  
+---
 
-### Installation
+## 📂 `example/` – Usage Examples
 
-Add to your project’s `pubspec.yaml`:
+Provides code samples demonstrating how to use each data structure in practice.
+
+---
+
+## ⚙️ Installation
+
+Add this package to your Dart project by including the following in your `pubspec.yaml`:
+
 ```yaml
 dependencies:
-  fundamental_dsa:
+  your_package_name:
     git:
-      url: https://github.com/your-org/fundamental_dsa.git
-      ref: main
+      url: https://github.com/your-username/data-structures-dart.git
