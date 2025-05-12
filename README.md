@@ -51,4 +51,4 @@ Add this package to your Dart project by including the following in your `pubspe
 dependencies:
   your_package_name:
     git:
-      url: https://github.com/your-username/data-structures-dart.git
+      url: https://github.com/Yazan-Abdalmutee/DSA-Dart-Implementations.git
