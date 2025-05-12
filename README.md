@@ -13,8 +13,8 @@ All core data structures are organized under the `lib/` directory, with individu
 Contains implementations for lists, queues, and stacks:
 
 - **Linked Lists**
-  - Singly Linked List: Insertion, deletion, traversal, and searching.
-  - Doubly Linked List: Bidirectional traversal, insertion, and deletion.
+  - Singly Linked List: Insertion, deletion, traversal, searching, etc.
+  - Doubly Linked List: Bidirectional traversal, insertion, deletion, etc.
   - Circular Linked List: A singly linked list where the last node points to the head. Includes `insertAtEnd`, `insertAtFirst`, etc.
 
 - **Queues**
@@ -45,6 +45,6 @@ Add this package to your Dart project by including the following in your `pubspe
 
 ```yaml
 dependencies:
-  your_package_name:
+  dsa_dart_implementations:
     git:
       url: https://github.com/Yazan-Abdalmutee/DSA-Dart-Implementations.git
