@@ -27,10 +27,6 @@ Contains implementations for lists, queues, and stacks:
 ---
 
 
-You can add tree-based data structures (e.g., binary trees, AVL trees, etc.) here in the future.
-
----
-
 ## 🧪 `test/` – Unit Testing
 
 Contains **unit tests for each data structure** to ensure correctness and reliability.
