@@ -26,7 +26,6 @@ Contains implementations for lists, queues, and stacks:
 
 ---
 
-### 📂 `trees/` – Future Data Structures (e.g., Trees)
 
 You can add tree-based data structures (e.g., binary trees, AVL trees, etc.) here in the future.
 
