@@ -1,4 +1,4 @@
-import 'package:dsa_in_dart/data_structures/list/stack/stack.dart';
+import 'package:dsa_dart_implementations/data_structures/lists/stack/stack.dart';
 import 'package:test/test.dart';
 
 void main() {
