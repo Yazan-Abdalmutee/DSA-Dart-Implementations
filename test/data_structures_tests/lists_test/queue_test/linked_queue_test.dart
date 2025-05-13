@@ -1,4 +1,4 @@
-import 'package:dsa_in_dart/data_structures/list/queue/linked_queue.dart';
+import 'package:dsa_dart_implementations/data_structures/lists/queue/linked_queue.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -28,7 +28,7 @@ void main() {
       expect(firstElement, equals(10));
     });
 
-      test('front element of empty queue should be null', () {
+    test('front element of empty queue should be null', () {
       queue.enqueue(1);
       queue.dequeue();
       final firstElement = queue.front();
