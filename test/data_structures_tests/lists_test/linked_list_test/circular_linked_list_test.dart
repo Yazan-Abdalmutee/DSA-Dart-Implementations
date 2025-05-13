@@ -1,4 +1,4 @@
-import 'package:dsa_in_dart/data_structures/list/linked_list/circular_linked_list.dart';
+import 'package:dsa_dart_implementations/data_structures/lists/linked_list/circular_linked_list.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -28,7 +28,7 @@ void main() {
       cicularLinkedList.insertAtEnd(4);
       cicularLinkedList.insertAtEnd(1);
       expect(cicularLinkedList.delete(1), equals(true));
-      expect(cicularLinkedList.contains(1),equals (false));
+      expect(cicularLinkedList.contains(1), equals(false));
       expect(cicularLinkedList.delete(5), equals(false));
       expect(cicularLinkedList.length(), equals(3));
     });
