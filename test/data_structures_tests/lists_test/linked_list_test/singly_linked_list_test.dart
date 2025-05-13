@@ -1,4 +1,4 @@
-import 'package:dsa_in_dart/data_structures/list/linked_list/singly_linked_list.dart';
+import 'package:dsa_dart_implementations/data_structures/lists/linked_list/singly_linked_list.dart';
 import 'package:test/test.dart';
 
 void main() {
